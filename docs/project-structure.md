@@ -32,9 +32,3 @@ sports-ai/
 - Database: MongoDB, Redis
 - Infrastructure: Kubernetes, Istio
 - Monitoring: Prometheus, Grafana
-
-## Development Guidelines
-1. Follow Python PEP 8 style guide
-2. Write tests for all new features
-3. Use conventional commits
-4. Document all public APIs

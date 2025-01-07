@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sports-ai
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sports-ai
+  template:
+    metadata:
+      labels:
+        app: sports-ai
+    spec:
+      containers:
+      - name: api
+        image: sports-ai-api:latest
